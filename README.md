@@ -1,6 +1,6 @@
 # alfred-mixed-case
 
-An [Alfred 3](https://www.alfredapp.com/) workflow for converting text to mixed case.
+An [Alfred](https://www.alfredapp.com/) workflow for converting text to mixed case.
 
 ## Installation
 

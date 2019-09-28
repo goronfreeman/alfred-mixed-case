@@ -1,8 +1,8 @@
-input_string=$(echo $1)
+input_string=$(echo $1 | tr '\n' ' ')
 input_array=(${(s::)input_string})
 output_array=()
 
-for char in $input_array; do	
+for char in $input_array; do
   if [ $[${RANDOM}%2] = 0 ]; then
     output_array+="$(echo $char | awk '{print tolower($0)}')"
   else
